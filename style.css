@@ -1,0 +1,169 @@
+:root {
+  --clr-accent: rgb(251, 116, 19);
+  --clr-light: hsl(217, 12%, 63%);
+  --clr-medium: hsl(216, 12%, 54%);
+  --clr-dark: hsl(213, 19%, 18%);
+  --clr-darkest: hsl(216, 12%, 8%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Typography */
+
+body {
+  margin: 0;
+  font-family: 'Overpass', sans-serif;
+  color: #8c939d;
+  background-color: #141519;
+  padding: 1em;
+}
+
+.window-1,
+.window-2 {
+  background-color: #171e27;
+  border-radius: 15px;
+}
+
+.title,
+.title2 {
+  color: white;
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+.rating-con,
+.star-con {
+  background-color: #262f38;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+}
+
+.rating-con:hover {
+  background: rgb(251, 116, 19);
+  color: white;
+}
+
+.clicked {
+  background-color: #959eac;
+  color: white;
+}
+
+.text {
+  font-size: 15px;
+}
+
+.text2 {
+  font-size: .7rem;
+  text-align: center;
+}
+
+.star-img {
+  width: 15px;
+}
+
+.btn {
+  text-transform: uppercase;
+  border: none;
+  background-color: rgb(251, 116, 19);
+  color: #fff7dc;
+  border-radius: 25px;
+  width: 100%;
+  padding: .8rem;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.btn:hover {
+  background: hsl(217, 12%, 63%);
+}
+
+/* Layout */
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title,
+.text,
+.title2,
+.text2 {
+  margin: 0;
+}
+
+.window-1,
+.window-2 {
+  width: 300px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+  padding: 1rem;
+}
+
+.window-2 {
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.rating-con-con {
+  display: flex;
+  justify-content: space-between;
+}
+
+.window-2 img {
+  width: 100px;
+}
+
+.you-selected-con {
+  background-color: #262f38;
+  border-radius: 30px;
+  padding: .2rem .5rem;
+  padding-top: .3rem;
+}
+
+.you-selected {
+  margin: 0;
+  font-size: 13px;
+  color: rgb(251, 116, 19);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.window-1 {
+  display: flex;
+}
+
+.window-2 {
+  display: none;
+  /* background: red; */
+}
