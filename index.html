@@ -18,39 +18,47 @@
 	</head>
 
 	<body>
-		<div class="window-1">
-			<div class="star-con">
-				<img class="star-img" src="/images/icon-star.svg" alt="star icon" />
+		<main class="card">
+			<div class="window-1">
+				<div class="star-con">
+					<img class="star-img" src="/images/icon-star.svg" alt="star icon" />
+				</div>
+				<h2 class="title">How did we do?</h2>
+				<p class="text"
+					>Please let us know how we did with your support request. All
+					feedback is appreciated to help us improve our offering!</p
+				>
+				<div class="rating-con-con">
+					<div class="rating-con">
+						<span>1</span>
+					</div>
+					<div class="rating-con">
+						<span>2</span>
+					</div>
+					<div class="rating-con">
+						<span>3</span>
+					</div>
+					<div class="rating-con">
+						<span>4</span>
+					</div>
+					<div class="rating-con">
+						<span>5</span>
+					</div>
+				</div>
+				<button class="btn" onclick="submit()">Submit</button>
 			</div>
-
-			<h2 class="title">How did we do?</h2>
-
-			<p class="text"
-				>Please let us know how we did with your support request. All feedback
-				is appreciated to help us improve our offering!</p
-			>
-			<div class="rating-con-con">
-				<div class="rating-con">1</div>
-				<div class="rating-con">2</div>
-				<div class="rating-con">3</div>
-				<div class="rating-con">4</div>
-				<div class="rating-con">5</div>
+			<div class="window-2">
+				<img src="/images/illustration-thank-you.svg" alt="" />
+				<div class="you-selected-con">
+					<p class="you-selected">You selected <span></span> out of 5</p>
+				</div>
+				<h2 class="title2">Thank you!</h2>
+				<p class="text2"
+					>We appreciate you taking the time to give a rating. If you ever
+					need more support, don’t hesitate to get in touch!</p
+				>
 			</div>
-
-			<button class="btn" onclick="submit()">Submit</button>
-		</div>
-
-		<div class="window-2">
-			<img src="/images/illustration-thank-you.svg" alt="" />
-			<div class="you-selected-con">
-				<p class="you-selected">You selected <span></span> out of 5</p>
-			</div>
-			<h2 class="title2">Thank you!</h2>
-			<p class="text2"
-				>We appreciate you taking the time to give a rating. If you ever need
-				more support, don’t hesitate to get in touch!</p
-			>
-		</div>
+		</main>
 
 		<script src="app.js" defer></script>
 	</body>
